@@ -1,4 +1,10 @@
-/* Primer programa en node */
+// Primer programa en node 
+
+// Importación de módulos
+import Statistics from ("./Statistics.js");
+
+// Statistics object
+const stc = new Statistics();
 
 function Factorial(n){
    if(n >= 0){
@@ -15,5 +21,7 @@ function Factorial(n){
 /* Funcion del factorial */
 
 console.log("El Factorial de 4 es "+Factorial(4));
+console.log("Las combinaciones de 5 elementos tomados 2 a 2 es: "+stc.Combinatorics(5,2));
 
+console.log();
 console.log("Fin del programa");
