@@ -1,7 +1,7 @@
 // Primer programa en node 
 
 // Importación de módulos
-import Statistics from ("./Statistics.js");
+const { Statistics } = require("./statistcs.js");
 
 // Statistics object
 const stc = new Statistics();
