@@ -26,6 +26,6 @@ class Statistics{
    }
 }
 
-module.exports = {
+export {
    Statistics
 }
